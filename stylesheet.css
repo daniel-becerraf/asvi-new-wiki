@@ -1,0 +1,66 @@
+/* CSS */
+body{
+    max-width: fit-content;
+    margin-inline: auto;
+    background-color: white;
+    font-family: 'Amazon Ember';
+}
+
+body h1{
+    max-width: fit-content;
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bento-box-container {
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .bento-box-card-primary{
+    width: 250px;
+    height: 45vh;
+    padding: 20px;
+    background-color: #fe7e29;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 500ms;
+
+  }
+
+  .bento-box-card-primary:hover{
+    width: 275px;
+    height: auto;
+    background-image: linear-gradient(#6b8cc6, rgb(34, 43, 143));
+    transition: 500ms;
+    color: #f1f1f1;
+
+  }
+
+  .bento-box-card {
+    width: 250px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .bento-box-card:hover{
+    width: 275px;
+    height: auto;
+    background-image: linear-gradient(#6b8cc6, rgb(34, 43, 143));
+    transition: 500ms;
+    color: #f1f1f1;
+
+  }
+
+
+  .selected-bento-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
