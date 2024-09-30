@@ -101,8 +101,9 @@ button:hover{
   
 .ul-box{
 
-    height: 70%;
-    width: 85%;
+    height: 275px;
+    width: 240px;
+    padding-left: 20px;
 }
 
 span{
@@ -125,7 +126,7 @@ a{
 .bento-box-card-terciary{
 
     width: 260px;
-    padding: 15px;
+    padding: 15px 15px 20px 25px;
     background-color: #f1f1f1;
     border-radius: 25px;
   }
