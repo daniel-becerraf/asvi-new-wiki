@@ -1,8 +1,8 @@
-/* CSS */
+ 
 body{
     max-width: fit-content;
     margin-inline: auto;
-    background-color: white;
+    background-image: -webkit-linear-gradient(250deg, #3facf0, #5042fc 49%, #444090);
     font-family: 'Amazon Ember';
 }
 
@@ -11,6 +11,7 @@ body h1{
     margin-inline: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: #f1f1f1;
 }
 
 .bento-box-container {
@@ -23,44 +24,118 @@ body h1{
   
   .bento-box-card-primary{
     width: 250px;
-    height: 45vh;
+    height: 40vh;
     padding: 20px;
-    background-color: #fe7e29;
-    cursor: pointer;
+    background-color: #ffffff;
     border-radius: 25px;
-    transition: 500ms;
+    transition: 0.5s;
 
   }
 
   .bento-box-card-primary:hover{
-    width: 275px;
-    height: auto;
-    background-image: linear-gradient(#6b8cc6, rgb(34, 43, 143));
-    transition: 500ms;
-    color: #f1f1f1;
+    width: 255px;
+    height: 40.5vh;
+    background-image: linear-gradient(#fffbbd, rgba(255, 81, 0, 0.201));
+    transition: 0.5s;
+    color: #232f3f;
+    box-shadow: #232f3f 5px 5px 10px;
 
   }
 
   .bento-box-card {
-    width: 250px;
-    padding: 20px;
+    width: 260px;
+    padding: 15px;
     background-color: #f1f1f1;
-    cursor: pointer;
     border-radius: 25px;
   }
   
   .bento-box-card:hover{
-    width: 275px;
-    height: auto;
-    background-image: linear-gradient(#6b8cc6, rgb(34, 43, 143));
-    transition: 500ms;
+    width: 265px;
+
+    background-image: linear-gradient(#ffe5f9, rgb(202, 244, 255));
+    transition: 0.5s;
+    color: #232f3f;
+    box-shadow: #232f3f81 5px 5px 5px;
+
+  }
+
+button{
+
+    font-family: Amazon Ember;
+    font-weight: bold;
+    font-size: 17px;
+    height: 35px;
+    width: 125;
+    border-radius: 1.375rem;
+    color: #232f3f;
+    border: 2px solid #232f3f;
+    background: none;
+    margin-bottom: auto;
+    margin-top: auto;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background-color: #232f3f;
     color: #f1f1f1;
 
-  }
+}
 
+.button-box{
 
-  .selected-bento-box {
-    margin-top: 20px;
-    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+.button-box-secondary{
+
+    margin-top: 50px;
+}
+  
+.ul-box{
+
+    height: 70%;
+}
+
+span{
+
+    font-weight: bold;
+
+}
+
+label{
+
+    font-size: 12px;
+
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.bento-box-card-terciary{
+
+    width: 260px;
+    padding: 15px;
     background-color: #f1f1f1;
+    border-radius: 25px;
   }
+  
+  .bento-box-card-terciary:hover{
+    width: 265px;
+
+    background-image: linear-gradient(#fcffdb, rgb(161, 216, 160));
+    transition: 0.5s;
+    color: #232f3f;
+    box-shadow: #232f3f81 5px 5px 5px;
+
+  }
+
+  a:visited{
+    color: #232f3f;
+
+  }
+
