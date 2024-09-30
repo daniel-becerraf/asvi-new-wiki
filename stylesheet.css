@@ -5,10 +5,6 @@ body{
     font-family: 'Amazon Ember';
 }
 
-.main{
-
-    background-image: -webkit-linear-gradient(250deg, #21384667, #5042fc 49%, #444090);
-}
 
 body h1{
     max-width: fit-content;
