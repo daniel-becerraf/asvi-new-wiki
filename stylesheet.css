@@ -7,7 +7,7 @@ body{
 
 .main{
 
-    background-image: -webkit-linear-gradient(250deg, #3facf0, #5042fc 49%, #444090);
+    background-image: -webkit-linear-gradient(250deg, #21384667, #5042fc 49%, #444090);
 }
 
 body h1{
@@ -15,8 +15,9 @@ body h1{
     margin-inline: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #f1f1f1;
+    color: #232f3f;
     text-decoration: none;
+    border: 0;
 }
 
 .bento-box-container {
@@ -25,6 +26,10 @@ body h1{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    background-image: -webkit-linear-gradient(250deg, #3facf0, #5042fc 49%, #444090);
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px;
   }
   
   .bento-box-card-primary{
@@ -143,4 +148,6 @@ a{
     color: #232f3f;
 
   }
+
+
 
