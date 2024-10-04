@@ -17,6 +17,8 @@ body h1{
     border: 0;
 }
 
+
+
 .bento-box-container {
     display: flex;
     width: 95vw;
@@ -29,7 +31,7 @@ body h1{
   }
   
   .bento-box-card-primary{
-    min-width: 290px;
+    min-width: 295px;
     max-width: 25%;
     height: 520px;
     padding: 20px;
@@ -40,7 +42,7 @@ body h1{
   }
 
   .bento-box-card-primary:hover{
-    width: 305px;
+    width: 300px;
     height: 525px;
     background-image: linear-gradient(#fffbbd, rgba(255, 81, 0, 0.201));
     color: #232f3f;
@@ -132,9 +134,11 @@ button:hover{
   
 .ul-box{
 
-    height: 275px;
+    
+    height: 300px;
     width: 240px;
     padding: 20px;
+    margin-bottom: 10px;
 }
 
 span{
