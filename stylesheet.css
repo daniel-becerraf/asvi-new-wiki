@@ -168,17 +168,20 @@ a{
 .showhidebutton{
 
   font-size: 24px;
-  min-width: 18vw;
-  width: 22vw;
-  background-image: -webkit-linear-gradient(250deg, #3facf06e, #5242fc51 49%, #44409054);
+  min-width: 300px;
+  background-image: -webkit-linear-gradient(250deg, #3facf022, #5242fc22 49%, #44409012);
   padding: 12px;
   margin: 15px;
+  border-radius: 25px;
+  transition: 0.5s; 
 
 }
 
 .showhidebutton:hover{
 
-  width: 25vw;
+  background-image: -webkit-linear-gradient(250deg, #3facf030, #5242fc35 49%, #44409022);
+  transition: 0.5s;
+
 
 }
 
