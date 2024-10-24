@@ -109,6 +109,7 @@ button{
     background: none;
     margin: 12px 10px;
     cursor: pointer;
+    background-color: white;
     
 
 }
@@ -262,28 +263,29 @@ a{
 
 .big-btn-title{
 
-  font-size: 36px;
+  font-size: 42px;
 
 }
 
 .second-btn{
 
   display: flex;
-  height: 350px;
+  height: 300px;
   justify-content: center;
   margin: 0;
+  margin-bottom: 75px;
 
 }
 
 .main{
 
-  background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/BG.jpg);
+  background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/BG-new.jpg);
 
 }
 
 #body h2{
 
-  font-size: 36px;
+  font-size: 42px;
   border-bottom: none;
 
 }
@@ -292,6 +294,11 @@ a{
  
   border-bottom: none;
 
+}
+
+#body h4{
+
+  font-weight: lighter;
 }
 
 .container-fluid{
