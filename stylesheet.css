@@ -185,3 +185,89 @@ a{
 
 }
 
+.main-btns{
+  display: flex;
+  padding: 25px;
+  height: 55vh;
+  justify-content: center;
+
+}
+
+.big-btn-1{
+
+  min-width: 50%;
+  min-height: 95%;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  transition: 0.5s;
+}
+
+.big-btn-1:hover{
+
+  scale: 102%;
+  box-shadow: #232f3f73 5px 5px 5px;
+  background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/video%20shoot%20bg.jpeg);
+  align-content: center;
+  transition: 0.5s;
+  
+
+}
+
+.big-btn-2{
+
+  min-width: 50%;
+  min-height: 95%;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  transition: 1s;
+}
+
+.big-btn-2:hover{
+
+  scale: 102%;
+  box-shadow: #232f3f73 5px 5px 5px;
+  background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/video%20editing.jpeg);
+  align-content: center;
+  transition: 0.5s;
+  
+
+}
+
+.big-btn-3{
+
+  min-width: 95%;
+  min-height: 95%;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  transition: 1s;
+}
+
+.big-btn-3:hover{
+
+  scale: 102%;
+  box-shadow: #232f3f73 5px 5px 5px;
+  background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/resources.jpg);
+  align-content: center;
+  opacity: 90%;
+  transition: 0.5s;
+  
+
+}
+
+.big-btn-title{
+
+  font-size: 36px;
+
+}
+
+.second-btn{
+
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  margin: 0;
+
+}
