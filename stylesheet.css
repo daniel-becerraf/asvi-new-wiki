@@ -161,7 +161,7 @@ a{
 
 
   a:visited{
-    color: #232f3f;
+    color: #ffffff;
 
   }
 
@@ -202,7 +202,9 @@ a{
   justify-content: center;
   padding: 50px;
   box-shadow: #232f3f73 2px 2px 2px;
-  transition: 0.5s;
+  background-image: -webkit-linear-gradient(250deg, #3a5dc4, #1e91d9 49%, #00a0fb);
+  transition: 1s;
+  
 }
 
 .big-btn-1:hover{
@@ -211,7 +213,7 @@ a{
   box-shadow: #232f3f73 5px 5px 5px;
   background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/video%20shoot%20bg.jpeg);
   align-content: center;
-  transition: 0.5s;
+  transition: 1s;
   
 
 }
@@ -224,6 +226,7 @@ a{
   justify-content: center;
   padding: 50px;
   box-shadow: #232f3f73 2px 2px 2px;
+  background-image: -webkit-linear-gradient(250deg, #3446c5, #4350b6 49%, #444c8e);
   transition: 1s;
 }
 
@@ -233,7 +236,7 @@ a{
   box-shadow: #232f3f73 5px 5px 5px;
   background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/video%20editing%20bg.jpeg);
   align-content: center;
-  transition: 0.5s;
+  transition: 1ms;
   
 
 }
@@ -246,6 +249,7 @@ a{
   justify-content: center;
   padding: 50px;
   box-shadow: #232f3f73 2px 2px 2px;
+  background-image: -webkit-linear-gradient(250deg, #393939, #2e2e2e 49%, #131313);
   transition: 1s;
 }
 
@@ -255,8 +259,7 @@ a{
   box-shadow: #232f3f73 5px 5px 5px;
   background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/resources.jpg);
   align-content: center;
-  opacity: 90%;
-  transition: 0.5s;
+  transition: 1s;
   
 
 }
@@ -277,9 +280,22 @@ a{
 
 }
 
+.btn-link:hover:visited{
+
+  color: white;
+  transition: 0.4s;
+
+}
+
 .main{
 
   background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/BG-new.jpg);
+
+}
+
+#body h1{
+
+border-bottom: none;
 
 }
 
