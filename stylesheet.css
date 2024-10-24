@@ -200,6 +200,7 @@ a{
   align-items: center;
   justify-content: center;
   padding: 50px;
+  box-shadow: #232f3f73 2px 2px 2px;
   transition: 0.5s;
 }
 
@@ -221,6 +222,7 @@ a{
   align-items: center;
   justify-content: center;
   padding: 50px;
+  box-shadow: #232f3f73 2px 2px 2px;
   transition: 1s;
 }
 
@@ -228,7 +230,7 @@ a{
 
   scale: 102%;
   box-shadow: #232f3f73 5px 5px 5px;
-  background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/video%20editing.jpeg);
+  background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/video%20editing%20bg.jpeg);
   align-content: center;
   transition: 0.5s;
   
@@ -242,6 +244,7 @@ a{
   align-items: center;
   justify-content: center;
   padding: 50px;
+  box-shadow: #232f3f73 2px 2px 2px;
   transition: 1s;
 }
 
@@ -269,5 +272,48 @@ a{
   height: 350px;
   justify-content: center;
   margin: 0;
+
+}
+
+.main{
+
+  background-image: url(https://goindons.sirv.com/Images/Wiki%20Revamp/BG.jpg);
+
+}
+
+#body h2{
+
+  font-size: 36px;
+  border-bottom: none;
+
+}
+
+#body h3{
+ 
+  border-bottom: none;
+
+}
+
+.container-fluid{
+
+  display: none;
+
+}
+
+#menuview .navbar{
+
+  display: none;
+
+}
+
+.main #xdocFooter{
+
+  display: none;
+
+}
+
+#xwikidatacontents{
+
+  display: none;
 
 }
