@@ -28,6 +28,30 @@ body h3{
 
 }
 
+h1{
+
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: 10px;
+
+}
+
+h2{
+
+    margin-bottom: 5px;
+
+}
+
+h3{
+
+    display: inline;
+    font-weight: 500;
+    color: #747474;
+    font-size: 14pt;
+    
+
+}
+
 .header{
 
     width: 100vw;
