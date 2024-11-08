@@ -19,6 +19,8 @@ body{
     border-bottom: none;
     margin-bottom: 5px;
     padding-bottom: 0px;
+    font-size: 24px;
+    font-weight: 600;
 
 }
 
@@ -28,7 +30,7 @@ body{
     display: inline;
     font-weight: 500;
     color: #747474;
-    font-size: 14pt;
+    font-size: 16pt;
     padding-bottom: 0px;
     
 
@@ -179,6 +181,7 @@ span{
 
     font-size: 18pt;
     margin-top: 60px;
+    z-index: 1;
 
 }
 
@@ -189,7 +192,6 @@ span{
     scale: 62%;
     margin: 0;
     top: 980px;
-    z-index: -1;
 
 }
 
@@ -206,7 +208,9 @@ span{
     width: 275px;
     height: 40px;
     margin-top: 25px;
+    z-index: 1;
     transition: 0.5s;
+    
 
 }
 
