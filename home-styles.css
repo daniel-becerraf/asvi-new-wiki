@@ -6,6 +6,7 @@ body{
 
 body h1{
 
+    border-bottom: none;
     font-weight: bolder;
     font-size: 36px;
     margin-top: 10px;
@@ -14,12 +15,14 @@ body h1{
 
 body h2{
 
+    border-bottom: none;
     margin-bottom: 5px;
 
 }
 
 body h3{
 
+    border-bottom: none;
     display: inline;
     font-weight: 500;
     color: #747474;
@@ -169,13 +172,16 @@ span{
 .resources-container h3{
 
     font-size: 16.4pt;
+    margin-top: 60px;
 
 }
 
 .resources-container img{
 
+    -webkit-user-drag: none;
     position: absolute;
-    scale: 50%;
+    scale: 60%;
     margin: 0;
-    top: 70vh;
+    top: 77vh;
+    z-index: -1;
 }
