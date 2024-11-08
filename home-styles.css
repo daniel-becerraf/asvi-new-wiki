@@ -4,29 +4,32 @@ body{
 
 }
 
-body h1{
+#body h1{
 
     border-bottom: none;
     font-weight: bolder;
     font-size: 36px;
     margin-top: 10px;
+    padding-bottom: 0px;
 
 }
 
-body h2{
+#body h2{
 
     border-bottom: none;
     margin-bottom: 5px;
+    padding-bottom: 0px;
 
 }
 
-body h3{
+#body h3{
 
     border-bottom: none;
     display: inline;
     font-weight: 500;
     color: #747474;
     font-size: 14pt;
+    padding-bottom: 0px;
     
 
 }
