@@ -1,4 +1,9 @@
+#xwikicontent{
+ padding: 50px 450px;
  
+}
+
+
 body{
     max-width: fit-content;
     margin-inline: auto;
