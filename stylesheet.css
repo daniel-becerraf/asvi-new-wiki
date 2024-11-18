@@ -1,7 +1,7 @@
-#xwikicontent{
- padding: 50px 450px;
- 
-}
+#xwikicontent:not(.header, .bento-box-container){
+  padding: 50px 450px;
+  
+ } 
 
 
 body{
