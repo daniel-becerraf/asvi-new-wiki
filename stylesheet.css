@@ -21,7 +21,7 @@ body h1{
 .bento-box-container {
     display: flex;
     width: 95vw;
-    height: 550px;
+    height: 580px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
