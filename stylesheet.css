@@ -329,3 +329,13 @@ border-bottom: none;
   display: none;
 
 }
+
+@media (min-width: 695px) and (max-width: 1358px) {
+
+  .bento-box-container {
+
+    height:1120px;
+
+  }
+  
+}
