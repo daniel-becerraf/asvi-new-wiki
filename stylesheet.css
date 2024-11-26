@@ -339,3 +339,13 @@ border-bottom: none;
   }
   
 }
+
+@media (max-width: 694px) {
+
+  .bento-box-container {
+
+    height: 2195px;
+
+  }
+  
+}
