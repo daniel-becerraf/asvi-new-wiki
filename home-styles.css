@@ -8,9 +8,10 @@ body{
 
     border-bottom: none;
     font-weight: bolder;
-    font-size: 32px;
+    font-size: 36px;
     margin-top: 10px;
     padding-bottom: 0px;
+    color: #232F40;
 
 }
 
@@ -19,8 +20,9 @@ body{
     border-bottom: none;
     margin-bottom: 5px;
     padding-bottom: 0px;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 600;
+    color: #232F40;
 
 }
 
@@ -29,10 +31,17 @@ body{
     border-bottom: none;
     display: inline;
     font-weight: 500;
-    color: #747474;
     font-size: 18pt;
     padding-bottom: 0px;
+    color: #232F40;
     
+
+}
+
+#body h4 {
+
+    font-weight: 500;
+    font-size: 16pt;
 
 }
 
@@ -42,6 +51,7 @@ h1{
     font-weight: bolder;
     font-size: 36px;
     margin-top: 10px;
+    color: #232F40;
 
 }
 
@@ -49,6 +59,7 @@ h2{
 
     border-bottom: none;
     margin-bottom: 5px;
+    color: #232F40;
 
 }
 
@@ -57,10 +68,8 @@ h3{
     border-bottom: none;
     display: inline;
     font-weight: 500;
-    color: #747474;
     font-size: 14pt;
     
-
 }
 
 .header{
@@ -116,7 +125,6 @@ span{
     justify-content: center;
     align-items: center;
     gap: 100px;
-    margin: 0px 3vw
 
 }
 
@@ -142,7 +150,7 @@ span{
     height: 600px;
     transition: 0.5s;
     z-index: 2;
-    
+
 }
 
 .btn-card:hover{
@@ -179,11 +187,46 @@ span{
 
 }
 
+.second-card-btn{
+
+    font-family: 'Amazon Ember';
+    font-size: 16pt;
+    font-weight: 500;
+    color: white;
+    background-color: #32addb;
+    box-shadow: 0px 3px 7px #18181844;
+    border-radius: 27px;
+    border-width: 0;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.second-card-btn:hover{
+
+    background-color: white;
+    box-shadow: 0px 0px 7px #18181855;
+    color: #6bcbee;
+    transition: 0.3s;
+    
+
+}
+
 .resources-container{
-    justify-items: left;
+
+    background: rgb(216,5,123);
+    background: linear-gradient(90deg, rgba(216,5,123,1) 0%, rgba(255,108,108,1) 100%);
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    height: 350px;
+    height: 120px;
+    width: 80vw;
     margin-top: 25px;
+    color: white;
+    padding-left: 2vw;
+    
 
 }
 
@@ -195,14 +238,9 @@ span{
 
 }
 
-.resources-container img{
-
-    -webkit-user-drag: none;
-    position: relative;
-    scale: 65%;
-    margin: 0;
-    top: -420px;
-    pointer-events: none;
+.resources-btn-container{
+display: flex;
+    gap: 25px;
 
 }
 
@@ -211,8 +249,8 @@ span{
     font-family: 'Amazon Ember';
     font-size: 16pt;
     font-weight: 500;
-    color: white;
-    background-color: #32addb;
+    color: #2a7fc1;
+    background-color: white;
     box-shadow: 0px 3px 7px #18181844;
     border-radius: 27px;
     border-width: 0;
@@ -230,7 +268,36 @@ span{
 
     background-color: white;
     box-shadow: 0px 0px 7px #18181855;
-    color: #32addb;
+    color: #2a7fc1;
+    transition: 0.3s;
+
+}
+
+.second-resources-btn{
+
+    font-family: 'Amazon Ember';
+    font-size: 16pt;
+    font-weight: 500;
+    color: #ff5559;
+    background-color: white;
+    box-shadow: 0px 3px 0px #18181844;
+    border-radius: 27px;
+    border-width: 0;
+    width: 275px;
+    height: 40px;
+    z-index: 5;
+    transition: 0.5s;
+    cursor: pointer;
+    
+
+}
+
+
+.second-resources-btn:hover{
+
+    background-color: white;
+    box-shadow: 0px 3px 10px #18181855;
+    color: #ff5559;
     transition: 0.3s;
 
 }
@@ -288,4 +355,3 @@ span{
     filter: invert(19%) sepia(82%) saturate(7051%) hue-rotate(317deg) brightness(85%) contrast(101%);
 
 }
-
