@@ -249,7 +249,8 @@ span{
 
     font-size: 16pt;
     font-weight: 400;
-    margin-top: 10px
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .resources-btn-container{
@@ -457,4 +458,9 @@ table tr:last-child td:first-child{
 table tr:last-child td:last-child{
 
     border-bottom-right-radius: 25px;
+}
+
+#xwikicontent.syntax-xwiki table > tbody > tr > td{
+
+    border: none;
 }
