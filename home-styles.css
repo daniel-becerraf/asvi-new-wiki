@@ -33,7 +33,7 @@ body{
     font-weight: 500;
     font-size: 18pt;
     padding-bottom: 0px;
-    color: #232F40;
+    
     
 
 }
@@ -125,6 +125,7 @@ span{
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -221,11 +222,12 @@ span{
     display: flex;
     flex-direction: column;
     text-align: left;
-    height: 120px;
+    height: 240px;
     width: 80vw;
     margin-top: 25px;
     color: white;
     padding-left: 2vw;
+    border-radius: 12px;
     
 
 }
@@ -354,4 +356,89 @@ display: flex;
 
     filter: invert(19%) sepia(82%) saturate(7051%) hue-rotate(317deg) brightness(85%) contrast(101%);
 
+}
+
+
+table{
+
+    border-radius: 25px;
+    padding: 25px;
+    
+}
+
+
+.table-container{
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    column-gap: 100px;
+
+
+}
+
+table tr{
+
+    font-size: 16pt;
+
+}
+
+table td{
+
+    width: 250px;
+    height: 100px;
+    margin: 2vw;
+    padding: 10px;
+
+}
+
+table th:first-child{
+
+    height: 100px;
+    border-top-left-radius: 25px;
+
+}
+
+table th:last-child{
+
+    height: 100px;
+    border-top-right-radius: 25px;
+
+}
+
+.first-tb-row{
+
+    background-color: #fec66a;
+    height: 100%;
+
+}
+
+.second-tb-row{
+
+    background-color: #fcefd8;
+
+
+}
+
+.third-tb-row{
+
+    background-color: #ffdfb5;
+
+}
+
+.fourth-tb-row{
+
+    background-color: #fec66a;
+
+}
+
+table tr:last-child td:first-child{
+
+    border-bottom-left-radius: 25px;
+
+}
+
+table tr:last-child td:last-child{
+
+    border-bottom-right-radius: 25px;
 }
