@@ -130,6 +130,7 @@ span{
     align-items: center;
     gap: 100px;
     margin-bottom: 100px;
+    width: 80vw;
 
 }
 
@@ -388,6 +389,7 @@ table{
     align-items: center;
     justify-self: center;
     column-gap: 100px;
+    width: 80vw;
 
 
 }
