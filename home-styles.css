@@ -232,6 +232,7 @@ span{
     color: white;
     padding-left: 2vw;
     border-radius: 12px;
+    justify-self: center;
     
 
 }
@@ -463,4 +464,10 @@ table tr:last-child td:last-child{
 #xwikicontent.syntax-xwiki table > tbody > tr > td{
 
     border: none;
+}
+
+#xwikicontent.syntax-xwiki table > tbody > tr > th{
+
+    border: none;
+
 }
