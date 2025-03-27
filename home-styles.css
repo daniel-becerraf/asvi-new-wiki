@@ -148,7 +148,7 @@ span{
     border-radius: 23px;
     padding: 20px;
     width: 480px;
-    height: 600px;
+    height: 820px;
     transition: 0.5s;
     z-index: 2;
 
@@ -372,6 +372,8 @@ table{
 
     border-radius: 25px;
     padding: 25px;
+    border-color: none;
+    border-width: 1.5px;
     
 }
 
