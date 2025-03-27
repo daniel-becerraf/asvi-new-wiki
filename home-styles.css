@@ -1,6 +1,10 @@
 body{
 
     font-family: 'Amazon Ember';
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
