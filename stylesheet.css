@@ -220,6 +220,13 @@ table{
   
 }
 
+table th{
+
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
 
 .VET-tb-container{
 
@@ -235,7 +242,9 @@ table{
 
 table tr{
 
-  font-size: 16pt;
+font-size: 16pt;
+text-align: center;
+vertical-align: middle;
 
 }
 
@@ -246,6 +255,8 @@ table td{
   margin: 2vw;
   padding: 10px;
   border: none;
+    text-align: center;
+    vertical-align: middle;
 
 }
 
