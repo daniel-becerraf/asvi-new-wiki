@@ -470,3 +470,13 @@ table tr:last-child td:last-child{
     margin-left: -3vw;
 }
 
+.AR-container{
+
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+
+}
+
