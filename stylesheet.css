@@ -445,6 +445,8 @@ table tr:last-child td:last-child{
 
 .tier-section{
 
+  justify-self: center;
+  width: 80vw;
   margin: 75px 0px;
 
 }
