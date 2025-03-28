@@ -480,6 +480,19 @@ table tr:last-child td:last-child{
 
 }
 
+.AR-section{
+
+    width: 100%;
+
+}
+
+.AR-tb-container{
+
+    width: 100%;
+
+}
+    
+
 .AR-tb-tr{
 
   background-color: #efefef;
