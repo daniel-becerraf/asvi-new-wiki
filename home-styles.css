@@ -381,6 +381,7 @@ table{
     padding: 25px;
     border-color: none;
     border-width: 1.5px;
+    text-align: center;
     
 }
 
@@ -392,6 +393,7 @@ table{
     justify-self: center;
     column-gap: 100px;
     width: 80vw;
+    margin-bottom: 80px;
 
 
 }
