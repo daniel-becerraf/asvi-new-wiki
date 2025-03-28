@@ -445,6 +445,6 @@ table tr:last-child td:last-child{
     width: 90vw;
     left: 0;
     -webkit-user-drag: none;
-    margin-left: -12vw;
+    margin-left: -3vw;
 }
 
