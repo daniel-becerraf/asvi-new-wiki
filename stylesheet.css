@@ -442,3 +442,12 @@ table tr:last-child td:last-child{
 
 }
 
+.title-square{
+
+    top:7vh;
+    width: 90vw;
+    left: 0;
+    -webkit-user-drag: none;
+    margin-left: -12vw;
+}
+
