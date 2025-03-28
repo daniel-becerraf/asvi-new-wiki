@@ -351,6 +351,59 @@ border-bottom: none;
 }
 
 
+.btn-home-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+
+
+}
+
+.btn-home{
+
+    font-family: 'Amazon Ember';
+    font-size: 16pt;
+    font-weight: 500;
+    color: white;
+    background-color: #d8057b;
+    box-shadow: 0px 3px 7px #18181844;
+    border-radius: 27px;
+    border-width: 0;
+    width: 250px;
+    height: 40px;
+    z-index: 5;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-home:hover{
+
+    background-color: white;
+    box-shadow: 0px 0px 7px #18181855;
+    color: #d8057b;
+    transition: 0.3s;
+
+}
+
+.btn-home img{
+
+    width: 30px;
+    padding: 0px 12px 0px 0px;
+    filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(327deg) brightness(102%) contrast(107%);
+
+}
+
+.btn-home:hover img{
+
+    filter: invert(19%) sepia(82%) saturate(7051%) hue-rotate(317deg) brightness(85%) contrast(101%);
+
+}
 
 
 
