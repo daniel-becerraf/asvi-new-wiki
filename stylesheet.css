@@ -98,107 +98,106 @@ a{
 
 
 
-
 .resources-container{
 
-    background: rgb(216,5,123);
-    background: linear-gradient(90deg, rgba(216,5,123,1) 0%, rgba(255,108,108,1) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 240px;
-    width: 80vw;
-    margin-top: 25px;
-    color: white;
-    padding-left: 2vw;
-    border-radius: 12px;
-    justify-self: center;
-    
+  background: rgb(216,5,123);
+  background: linear-gradient(90deg, rgba(216,5,123,1) 0%, rgba(255,108,108,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 240px;
+  width: 80vw;
+  margin-top: 25px;
+  color: white;
+  padding-left: 2vw;
+  border-radius: 12px;
+  justify-self: center;
+  
 
 }
 
 .resources-container h3{
 
-    font-size: 20pt;
-    margin-top: 30px;
-    z-index: 1;
-    justify-self: center;
+  font-size: 20pt;
+  margin-top: 30px;
+  z-index: 1;
+  justify-self: center;
 
 }
 
 .resources-container h4{
 
-    font-size: 16pt;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 25px;
+  font-size: 16pt;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 .resources-btn-container{
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 
 }
 
 .resources-btn{
 
-    font-family: 'Amazon Ember';
-    font-size: 16pt;
-    font-weight: 500;
-    color: #2a7fc1;
-    background-color: white;
-    box-shadow: 0px 3px 0px #18181844;
-    border-radius: 27px;
-    border-width: 0;
-    width: 275px;
-    height: 40px;
-    z-index: 5;
-    transition: 0.5s;
-    cursor: pointer;
-    
+  font-family: 'Amazon Ember';
+  font-size: 16pt;
+  font-weight: 500;
+  color: #2a7fc1;
+  background-color: white;
+  box-shadow: 0px 3px 0px #18181844;
+  border-radius: 27px;
+  border-width: 0;
+  width: 275px;
+  height: 40px;
+  z-index: 5;
+  transition: 0.5s;
+  cursor: pointer;
+  
 
 }
 
 
 .resources-btn:hover{
 
-    background-color: white;
-    box-shadow: 0px 3px 10px #18181855;
-    color: #2a7fc1;
-    transition: 0.3s;
-    scale: 103%;
+  background-color: white;
+  box-shadow: 0px 3px 10px #18181855;
+  color: #2a7fc1;
+  transition: 0.3s;
+  scale: 103%;
 
 }
 
 .second-resources-btn{
 
-    font-family: 'Amazon Ember';
-    font-size: 16pt;
-    font-weight: 500;
-    color: #ff5559;
-    background-color: white;
-    box-shadow: 0px 3px 0px #18181844;
-    border-radius: 27px;
-    border-width: 0;
-    width: 275px;
-    height: 40px;
-    z-index: 5;
-    transition: 0.5s;
-    cursor: pointer;
-    
+  font-family: 'Amazon Ember';
+  font-size: 16pt;
+  font-weight: 500;
+  color: #ff5559;
+  background-color: white;
+  box-shadow: 0px 3px 0px #18181844;
+  border-radius: 27px;
+  border-width: 0;
+  width: 275px;
+  height: 40px;
+  z-index: 5;
+  transition: 0.5s;
+  cursor: pointer;
+  
 
 }
 
 
 .second-resources-btn:hover{
 
-    background-color: white;
-    box-shadow: 0px 3px 10px #18181855;
-    color: #ff5559;
-    transition: 0.3s;
-    scale: 103%;
+  background-color: white;
+  box-shadow: 0px 3px 10px #18181855;
+  color: #ff5559;
+  transition: 0.3s;
+  scale: 103%;
 
 }
 
@@ -206,114 +205,240 @@ a{
 
 table{
 
-    border-radius: 25px;
-    padding: 25px;
-    border-color: none;
-    border-width: 1.5px;
-    text-align: center;
-    
+  border-radius: 25px;
+  padding: 25px;
+  border-color: none;
+  border-width: 1.5px;
+  text-align: center;
+  
 }
 
 
 .VET-tb-container{
 
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    column-gap: 100px;
-    width: 80vw;
-    margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  column-gap: 100px;
+  width: 80vw;
+  margin-bottom: 80px;
 
 
 }
 
 table tr{
 
-    font-size: 16pt;
+  font-size: 16pt;
 
 }
 
 table td{
 
-    width: 250px;
-    height: 100px;
-    margin: 2vw;
-    padding: 10px;
-    border: none;
+  width: 250px;
+  height: 100px;
+  margin: 2vw;
+  padding: 10px;
+  border: none;
 
 }
 
 table th:first-child{
 
-    height: 100px;
-    border-top-left-radius: 25px;
+  height: 100px;
+  border-top-left-radius: 25px;
 
 }
 
 table th:last-child{
 
-    height: 100px;
-    border-top-right-radius: 25px;
+  height: 100px;
+  border-top-right-radius: 25px;
 
 }
 
 .VET-first-tb-row{
 
-    background-color: #bb95bc;
-    height: 100%;
+  background-color: #bb95bc;
+  height: 100%;
 
 }
 
 .VET-second-tb-row{
 
-    background-color: #f4ecf3;
+  background-color: #f4ecf3;
 
 
 }
 
 .VET-third-tb-row{
 
-    background-color: #dfcfe5;
+  background-color: #dfcfe5;
 
 }
 
 .VET-fourth-tb-row{
 
-    background-color: #bb95bc;
+  background-color: #bb95bc;
 
 }
 
 table tr:last-child td:first-child{
 
-    border-bottom-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 
 }
 
 table tr:last-child td:last-child{
 
-    border-bottom-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 #xwikicontent.syntax-xwiki table > tbody > tr > td{
 
-    border: none;
+  border: none;
 }
 
 #xwikicontent.syntax-xwiki table > tbody > tr > th{
 
-    border: none;
+  border: none;
 
 }
 
 #xwikicontent.syntax-xwiki table{
 
-    border: none;
+  border: none;
 }
 
 
 .VET-span{
 
-    font-weight: bold;
+  font-weight: bold;
 
-    
+  
 }
+
+.bullet-list{
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.tier-title{
+
+  color: #ff5559;
+  font-weight: bold;
+
+}
+
+
+
+.resources-container{
+
+  background: rgb(216,5,123);
+  background: linear-gradient(90deg, rgba(216,5,123,1) 0%, rgba(255,108,108,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 240px;
+  width: 80vw;
+  margin-top: 25px;
+  color: white;
+  padding-left: 2vw;
+  border-radius: 12px;
+  justify-self: center;
+  
+
+}
+
+.resources-container h3{
+
+  font-size: 20pt;
+  margin-top: 30px;
+  z-index: 1;
+  justify-self: center;
+
+}
+
+.resources-container h4{
+
+  font-size: 16pt;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.resources-btn-container{
+  display: flex;
+  gap: 25px;
+
+}
+
+.resources-btn{
+
+  font-family: 'Amazon Ember';
+  font-size: 16pt;
+  font-weight: 500;
+  color: #2a7fc1;
+  background-color: white;
+  box-shadow: 0px 3px 0px #18181844;
+  border-radius: 27px;
+  border-width: 0;
+  width: 275px;
+  height: 40px;
+  z-index: 5;
+  transition: 0.5s;
+  cursor: pointer;
+  
+
+}
+
+
+.resources-btn:hover{
+
+  background-color: white;
+  box-shadow: 0px 3px 10px #18181855;
+  color: #2a7fc1;
+  transition: 0.3s;
+  scale: 103%;
+
+}
+
+.second-resources-btn{
+
+  font-family: 'Amazon Ember';
+  font-size: 16pt;
+  font-weight: 500;
+  color: #ff5559;
+  background-color: white;
+  box-shadow: 0px 3px 0px #18181844;
+  border-radius: 27px;
+  border-width: 0;
+  width: 275px;
+  height: 40px;
+  z-index: 5;
+  transition: 0.5s;
+  cursor: pointer;
+  
+
+}
+
+
+.second-resources-btn:hover{
+
+  background-color: white;
+  box-shadow: 0px 3px 10px #18181855;
+  color: #ff5559;
+  transition: 0.3s;
+  scale: 103%;
+
+}
+
+.tier-section{
+
+  margin: 75px 0px;
+
+}
+
