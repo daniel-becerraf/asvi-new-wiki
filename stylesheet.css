@@ -89,8 +89,17 @@ a{
 
 
 
+#body h2{
 
+    border-bottom: none;
 
+}
+
+#body h3{
+
+    border-bottom: none;
+    
+}
 
 
 
