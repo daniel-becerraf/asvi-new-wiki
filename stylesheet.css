@@ -320,6 +320,15 @@ table tr:last-child td:last-child{
 .VET-span{
 
   font-weight: bold;
+    color: #232f40;
+
+
+  
+}
+
+.VET-span-2{
+
+  font-weight: bold;
     color: #ff5559;
 
   
