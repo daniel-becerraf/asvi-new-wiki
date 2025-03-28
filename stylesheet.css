@@ -93,35 +93,6 @@ body h1{
 
 }
 
-
-button{
-
-    font-family: Amazon Ember;
-    font-weight: bold;
-    font-size: 17px;
-    min-height: 35px;
-    max-height: 50px;
-    min-width: 125;
-    border-radius: 1.375rem;
-    color: #232f3f;
-    border: 2px solid #232f3f;
-    background: none;
-    margin: 12px 10px;
-    cursor: pointer;
-    background-color: white;
-    transition: 0.5s
-    
-
-}
-
-button:hover{
-
-    background-color: #232f3f;
-    color: #f1f1f1;
-    transition: 0.5s;
-
-}
-
 .button-box{
 
     margin-bottom: 10px;
