@@ -527,29 +527,29 @@ table th:last-child{
 
 }
 
-.first-tb-row{
+.VET-first-tb-row{
 
-    background-color: #fec66a;
+    background-color: #bb95bc;
     height: 100%;
 
 }
 
-.second-tb-row{
+.VET-second-tb-row{
 
-    background-color: #fcefd8;
+    background-color: #f4ecf3;
 
-
-}
-
-.third-tb-row{
-
-    background-color: #ffdfb5;
 
 }
 
-.fourth-tb-row{
+.VET-third-tb-row{
 
-    background-color: #fec66a;
+    background-color: #dfcfe5;
+
+}
+
+.VET-fourth-tb-row{
+
+    background-color: #bb95bc;
 
 }
 
