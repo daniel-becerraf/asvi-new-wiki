@@ -270,7 +270,7 @@ span{
     box-shadow: 0px 3px 0px #18181844;
     border-radius: 27px;
     border-width: 0;
-    width: 275px;
+    width: 310px;
     height: 40px;
     z-index: 5;
     transition: 0.5s;
@@ -319,6 +319,38 @@ span{
     scale: 103%;
 
 }
+
+
+.third-resources-btn{
+
+    font-family: 'Amazon Ember';
+    font-size: 16pt;
+    font-weight: 500;
+    color: #232F40;
+    background-color: white;
+    box-shadow: 0px 3px 0px #18181844;
+    border-radius: 27px;
+    border-width: 0;
+    width: 310px;
+    height: 40px;
+    z-index: 5;
+    transition: 0.5s;
+    cursor: pointer;
+    
+
+}
+
+
+.third-resources-btn:hover{
+
+    background-color: white;
+    box-shadow: 0px 3px 10px #18181855;
+    color: #111d2e;
+    transition: 0.3s;
+    scale: 103%;
+
+}
+
 
 .btn-home-container{
 
