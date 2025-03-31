@@ -520,3 +520,60 @@ table tr:last-child td:last-child{
 
 }
 
+
+.toc-container{
+
+    min-width: 250px;
+    margin-left: 2vw;
+  
+  }
+
+.toc-elements{
+
+    position: sticky;
+    top: 25px;
+    line-height: 1em;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px; 
+
+}
+
+.toc-container li{
+
+    margin-top: 12px;
+    transition: 0.3s;
+
+}
+
+.toc-container li:hover{
+
+    margin-top: 16px;
+
+}
+
+.toc-container a{
+
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.toc-container a:hover{
+
+    font-size: 19px;
+    background-color: #f2f2f2;
+    padding: 7px;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+
+.main-container{
+
+    display: flex;
+
+}
+
