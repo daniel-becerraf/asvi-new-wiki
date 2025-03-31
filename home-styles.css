@@ -515,3 +515,28 @@ table tr:last-child td:last-child{
 
     border: none;
 }
+
+
+.toc-container{
+
+    min-width: 250px;
+  
+  }
+
+.toc-elements{
+
+    position: sticky;
+    top: 25px;
+    line-height: 1em;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+
+}
+
+.main{
+
+    display: flex;
+
+}
+
